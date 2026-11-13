@@ -177,4 +177,4 @@ For detailed host hardening steps (UFW, Fail2ban, SSH hardening, and automated u
 
 ## 📄 License
 
-Internal infrastructure configuration. All rights reserved.
+Released under the [MIT License](./LICENSE).
