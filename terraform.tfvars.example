@@ -1,0 +1,24 @@
+# ─── Oracle Cloud Configuration ──────────────────────────────────────────────
+tenancy_ocid     = "<TENANCY_OCID>"
+compartment_ocid = "<COMPARTMENT_OCID>"
+user_ocid        = "<USER_OCID>"
+region           = "us-phoenix-1"
+availability_domain = "jhfc:PHX-AD-1"
+fingerprint      = "<YOUR_OCI_API_FINGERPRINT>"
+private_key_path = "~/.oci/oci_api_key.pem"
+ssh_public_key   = "<YOUR_SSH_PUBLIC_KEY>"
+
+# ─── Compute & Storage ───────────────────────────────────────────────────────
+instance_shape         = "VM.Standard.A1.Flex"
+instance_ocpus         = 2
+instance_memory_in_gbs = 6
+image_ocid             = "ocid1.image.oc1.phx.aaaaaaaafyvgnzeatevnnrx2yuay2p7uarefgnbhibpwwk2gkor4r5zbumea"
+approved_sender_email  = "<APPROVED_SENDER_EMAIL>"
+admin_sender_email     = "<YOUR_ADMIN_SENDER_EMAIL>"
+
+# ─── Cloudflare Zero Trust & DNS ────────────────────────────────────────────
+cloudflare_account_id = "<YOUR_CLOUDFLARE_ACCOUNT_ID>"
+cloudflare_api_token  = "<YOUR_CLOUDFLARE_API_TOKEN>"
+cloudflare_zone_id    = "<YOUR_CLOUDFLARE_ZONE_ID_FOR_YOUR_DOMAIN>"
+domain                = "example.com"
+subdomain             = "app"
